@@ -161,9 +161,6 @@ struct shape_relink_lines
   constexpr shape_relink_lines(const auto &fl, const auto &fp)
   : first_pixel(), pixel(), total_pixels() // constructor will "write" to them
   {
-    // reset pixel storage
-    for(int j = 0; j < TNP; j++)
-      pixel[j] = 0;
     int i = 0;
     int t = 0; // pixel counter
     for(; i < TNL; i++)
