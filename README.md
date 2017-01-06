@@ -13,8 +13,10 @@ Input format is similar enough to XPM so that
 real XPM's can be copy-pasted and minimally edited
 to compile.
 
+# Problems
+
 gcc may not yet be ready for prime time.
-Only very short examples like "shapes.h"
+Only very short examples like "shape.h"
 can compile.
 
 Shapes from "galaga.h" will abort with
