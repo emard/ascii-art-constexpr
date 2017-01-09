@@ -13,6 +13,28 @@ Input format is similar enough to XPM so that
 real XPM's can be copy-pasted and minimally edited
 to compile.
 
+    constexpr const struct charcolors std_colors[] =
+    {
+      {'W', 0xFFFFFF},
+      {'R', 0xFF0000},
+      {'G', 0x00FF00},
+      {'B', 0x0000FF},
+      {' ', 0x000000},
+      { 0 , 0}
+    };
+
+    constexpr const char *shape_a[] =
+    {
+    "  W",
+    " W W",
+    "W   W",
+    "W   W",
+    "WRGBW",
+    "W   W",
+    "W   W",
+    NULL
+    };
+
 # Problems
 
 gcc may not yet be ready for prime time.
