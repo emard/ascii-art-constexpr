@@ -43,4 +43,4 @@ can compile.
 
 Shapes from "galaga.h" will abort with
 "out of memory error" after few minutes
-compiling on 4GB linux gcc (Debian 6.2.1-5) 6.2.1 20161124
+compiling on 4GB linux gcc (Debian 8.3.0-2) 8.3.0
